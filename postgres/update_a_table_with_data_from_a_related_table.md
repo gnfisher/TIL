@@ -1,6 +1,4 @@
-# PostgreSQL
-
-## Update a table with information from a joined table
+# Update a table with data from a related table
 
 I frequently need to do this when adding a new column to a table that is non-nullable.
 For example, adding a `last_modified_by_id`.

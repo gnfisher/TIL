@@ -6,4 +6,4 @@ to.
 
 You can pass a `-U` or `--unified=` flag to `diff` to tell it to show more:
 
-`git diff -u10` would show +10,-10 lines around the diff in question.
+`git diff -U10` would show +10,-10 lines around the diff in question.

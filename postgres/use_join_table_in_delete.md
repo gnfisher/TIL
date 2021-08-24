@@ -10,3 +10,5 @@ USING t2
 WHERE t1.t2_id = t1.id
 AND <additional conditions>
 ```
+
+Docs: https://www.postgresql.org/docs/13/sql-delete.html

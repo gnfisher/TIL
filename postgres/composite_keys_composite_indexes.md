@@ -1,6 +1,6 @@
 # Composite keys and composite indexes (in postgresql)
 
-Usually you'll identify a unique record by a single column that holds a uniquye number (which the database will autoincrement on a new row write).
+Usually you'll identify a unique record by a single column that holds a unique number (which the database will autoincrement on a new row write).
 But sometimes you'll want to identify a record by a combination of values.
 For example, friendship.
 

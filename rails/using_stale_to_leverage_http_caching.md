@@ -1,4 +1,4 @@
-# User `stale?` to leverage HTTP caching
+# Use `stale?` to leverage HTTP caching
 
 We can speed up our more expensive endpoints by using [`stale?`](https://api.rubyonrails.org/classes/ActionController/ConditionalGet.html#method-i-stale-3F), a method that will check certain HTTP headers and only render a response when the client's cached content is out of date.
 

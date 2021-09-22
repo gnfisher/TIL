@@ -7,7 +7,9 @@ You have some process that is querying against this table to find unactivated us
 
 First, you create an index on `users.activated`. This is a rather large index on disk since the `users` table is huge.
 It works, though. Youre query is faster.
-You can improve things by using a partial index, which includes a predicate like so:
+
+But you can improve things by dropping that index and creating a partial index instead.
+A partial index includes a predicate like this:
 
 ```sql
 CREATE INDEX users_unactivated_partial_index ON users(id)

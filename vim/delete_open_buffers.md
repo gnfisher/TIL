@@ -1,8 +1,5 @@
 # Delete open buffers
 
-Sometimes I bounce around a lot using `<C-o>` and `<C-i>` or other ways. I end
-up with a load of open buffers. It annoys me.
-
 You can list your open buffers with `:buffers`.
 
 You can close a buffer by passing a string to the `:bd` (buffer delete) command
@@ -15,3 +12,5 @@ the buffer for `./project/README.md`.
 
 If the buffer has been modified and not saved you need to add a `:bd!` bang (it
 will close and you'll lose changes, too).
+
+If you want to go nuclear, you can call `:bufo bd` and close all open buffers without exiting vim.

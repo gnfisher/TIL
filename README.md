@@ -8,3 +8,4 @@ Also, a work in progress.
 - [postgres](./postgres/)
 - [vim](./vim)
 - [git](./git)
+- [java](./java)
